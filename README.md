@@ -142,7 +142,9 @@ CHATGPTBOT/
 
 ## Documentation
 
-* 📄 [Usage & API Documentation](USAGE.md)
+* 📄 [Project overview and features](README.md)
+* 📄 [Setup, flow, APIs, and authentication](USAGE.md)
+* 📄 [System architecture and design](ARCHITECTURE.md)
 
 ---
 
