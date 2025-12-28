@@ -1,0 +1,291 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good day",
+        "greetings",
+        "hi bot",
+        "hello assistant"
+      ],
+      "responses": [
+        "Hello! 👋",
+        "Hi there! How can I help you?",
+        "Hey! What can I do for you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "later",
+        "farewell",
+        "exit"
+      ],
+      "responses": [
+        "Goodbye! 👋",
+        "See you soon!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thx",
+        "ty",
+        "appreciate it"
+      ],
+      "responses": [
+        "You're welcome 😊",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "need help",
+        "assist me",
+        "support",
+        "guide me"
+      ],
+      "responses": [
+        "Sure! Tell me what you need help with.",
+        "I'm here to help you.",
+        "Please explain your issue."
+      ]
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": [
+        "who are you",
+        "what are you",
+        "introduce yourself",
+        "about you"
+      ],
+      "responses": [
+        "I’m a conversational chatbot built with custom backend logic.",
+        "I’m an assistant designed to help answer your questions.",
+        "I’m a rule-based chatbot, not powered by AI."
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "what can you do",
+        "your features",
+        "how can you help",
+        "what are your abilities"
+      ],
+      "responses": [
+        "I can answer questions, tell jokes, and assist with basic conversations.",
+        "I’m designed to help with predefined topics and guidance."
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "how are you",
+        "how you doing",
+        "are you fine",
+        "all good",
+        "how is it going"
+      ],
+      "responses": [
+        "I'm doing great, thanks for asking! 😊",
+        "All good! How about you?",
+        "I'm here and ready to help."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell a joke",
+        "make me laugh",
+        "funny",
+        "say a joke"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs 😄",
+        "Why did the computer catch a cold? Because it left its Windows open!",
+        "I told my computer I needed a break, and it froze 🤓"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "what is the time",
+        "current time",
+        "time now",
+        "tell me the time"
+      ],
+      "responses": [
+        "I don’t have access to real-time clock yet.",
+        "I can help with concepts, but not the current time."
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "what is the date",
+        "today date",
+        "current date",
+        "tell me today's date"
+      ],
+      "responses": [
+        "I don’t fetch real-time dates yet.",
+        "I can help explain things, but not today’s date."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "who created you",
+        "who built you",
+        "your developer",
+        "who made you"
+      ],
+      "responses": [
+        "I was created by a developer as a learning project.",
+        "I’m built using custom backend logic."
+      ]
+    },
+    {
+      "tag": "confirmation",
+      "patterns": [
+        "ok",
+        "okay",
+        "yes",
+        "sure",
+        "alright"
+      ],
+      "responses": [
+        "Got it 👍",
+        "Alright!",
+        "Sounds good."
+      ]
+    },
+    {
+      "tag": "confusion",
+      "patterns": [
+        "i am confused",
+        "not clear",
+        "explain again",
+        "clarify",
+        "what do you mean"
+      ],
+      "responses": [
+        "No worries, let me explain again.",
+        "Sure, I’ll try to make it clearer.",
+        "Let me break it down step by step."
+      ]
+    },
+    {
+      "tag": "user_mood",
+      "patterns": [
+        "i am sad",
+        "i feel low",
+        "i am stressed",
+        "not feeling good",
+        "feeling bad today"
+      ],
+      "responses": [
+        "I’m sorry you’re feeling this way. Want to talk about it?",
+        "That sounds tough. I’m here if you need support.",
+        "Take a deep breath. Things will get better."
+      ]
+    },
+    {
+      "tag": "praise",
+      "patterns": [
+        "good job",
+        "well done",
+        "you are helpful",
+        "nice work",
+        "you are great"
+      ],
+      "responses": [
+        "Thank you! That means a lot 😊",
+        "Glad I could help!",
+        "I appreciate your feedback!"
+      ]
+    },
+    {
+      "tag": "apology",
+      "patterns": [
+        "sorry",
+        "my bad",
+        "i am sorry",
+        "apologies",
+        "forgive me"
+      ],
+      "responses": [
+        "No worries at all!",
+        "It’s okay, no problem 😊",
+        "All good, let’s continue."
+      ]
+    },
+    {
+      "tag": "waiting",
+      "patterns": [
+        "are you there",
+        "still there",
+        "anyone there",
+        "are you responding"
+      ],
+      "responses": [
+        "Yes, I’m here!",
+        "I’m here and listening.",
+        "Sorry for the delay, how can I help?"
+      ]
+    },
+    {
+      "tag": "learning",
+      "patterns": [
+        "i want to learn",
+        "teach me something",
+        "can you explain",
+        "help me understand"
+      ],
+      "responses": [
+        "Sure! What would you like to learn?",
+        "I’d be happy to explain. Tell me the topic.",
+        "Learning is great! What should we start with?"
+      ]
+    },
+    {
+      "tag": "uncertainty",
+      "patterns": [
+        "maybe",
+        "not sure",
+        "i don't know",
+        "can't decide",
+        "unsure"
+      ],
+      "responses": [
+        "That’s okay. Take your time.",
+        "No problem, let me know when you decide.",
+        "I can help you decide if you want."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "*"
+      ],
+      "responses": [
+        "Sorry, I didn’t understand that.",
+        "Can you rephrase your message?",
+        "I’m not sure what you mean."
+      ]
+    }
+  ]
+}
